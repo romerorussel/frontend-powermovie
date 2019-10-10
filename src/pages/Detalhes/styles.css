@@ -1,0 +1,221 @@
+.bread-crumb{
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Abel', sans-serif;
+    color: #007eb0;
+    font-size: 16pt;
+}
+.grid-container-details {
+    display: grid;
+    grid-template: 500px / auto 300px;
+    background-color: #e9eef0;
+    margin-top: 50px;
+  }
+
+.grid-container-details header {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.movie-container-right-details h2 {
+    background-color: #dbdbdb;
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    font-family: 'Abel', sans-serif;
+    padding-left: 75px;
+    font-weight: 400;
+    color: #007eb0;
+    font-size: 26pt;
+}
+.movie-date, .movie-resume, .movie-genre{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.movie-rating {
+    font-family: 'Abel', sans-serif;
+    margin-left: 15px;
+    padding: 15px 9px;
+    background-color: #007eb0;
+    border-radius: 50%;
+    border: 4px solid #05b4ff;
+    color: #05b4ff;
+    font-size: 16pt;
+}
+
+.movie-date { 
+    font-family: 'Abel', sans-serif;
+    color: #aeb3b5;
+}
+.movie-resume {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    color: #747575;
+    margin-bottom: 50px;
+}
+
+.movie-genre {
+    border: 1px solid #05b4ff;
+    border-radius: 20px;
+    padding: 5px 10px !important;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    color: #05b4ff;
+}
+.sinopse-group{
+    width: 90%;
+    margin: 0 auto;
+}
+.sinopse-group h4{
+    font-family: 'Abel', sans-serif;
+    color: #007eb0;
+    font-size: 18pt;
+    font-weight: 400;
+    margin-top:30px;
+}
+.sinopse-group hr {
+    border: 0.5px solid #05b4ff;
+}
+.sinopse-group p{
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    color: #747575;
+    margin-top: 11px;
+    font-weight: 600;
+}
+
+.movie-informacoes{
+    width: 90%;
+    margin: 0 auto;
+}
+.movie-informacoes h4{
+    font-family: 'Abel', sans-serif;
+    color: #007eb0;
+    font-size: 18pt;
+    font-weight: 400;
+    margin-top:30px;
+}
+.movie-informacoes hr {
+    border: 0.5px solid #05b4ff;
+}
+.movie-informacoes table{
+    margin-top: 11px;
+}
+.movie-informacoes th, td{
+    text-align: center;
+    padding: 5px;
+}
+.movie-informacoes th {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    color: #007eb0;
+    font-size: 14pt;
+}
+.movie-informacoes td {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #747575;
+    font-size: 8pt;
+}
+.info-list{
+    padding-left: 35px;
+    margin-top: 50px;
+}
+.info-list li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #05b4ff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    color: #05b4ff;
+}
+.movie-rating-info {
+    font-family: 'Abel', sans-serif;
+    margin-right: 50px;
+    float: right;
+    margin-top: -50px;
+    padding: 25px 18px;
+    background-color: #007eb0;
+    border-radius: 50%;
+    border: 4px solid #05b4ff;
+    color: #05b4ff;
+    font-size: 21pt;
+}
+@media( max-width: 600px){
+    .grid-container-details {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        background-color: #e9eef0;
+        margin-top: 50px;
+        max-width: 450px;
+        padding:0;
+        background-color: #F8F8FF;
+      }
+
+    h2.movie-title-info{
+        font-size: 16pt;
+        max-width: 95%;
+    }
+    .grid-container-details header {
+       display: none;
+    }
+    iframe{
+        width: 420px;
+        height: 350px;
+        padding: 0;
+    }
+    .sinopse-group{
+        margin: 0;
+    }
+    .sinopse-group h4{
+        font-size: 14pt;
+    }
+    .sinopse-group hr{
+        max-width: 100%;
+    }
+    .sinopse-group p{
+        font-size: 9pt;
+        max-width: 100%;
+    }
+
+    .movie-informacoes{
+        margin: 0;
+    }
+    .movie-informacoes h4{
+        font-size: 14pt;
+    }
+    .movie-informacoes hr{
+        max-width: 100%;
+    }
+    .movie-informacoes table{
+        max-width: 450px;
+    }
+    .movie-informacoes th{
+        font-size: 8pt;
+    }
+    .movie-informacoes td{
+        font-size: 7pt;
+    }
+    .movie-rating-info {
+        padding: 15px 12px;
+        font-size: 16pt;
+    }
+    .info-list{
+        padding-left: 5px;
+        margin-top: 50px;
+    }
+    .info-list li{
+        margin-left: 10px;
+        font-size: 8pt;
+    }
+}

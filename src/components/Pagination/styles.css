@@ -1,0 +1,31 @@
+ul.pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+ul.pagination li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul.pagination li:hover{
+    cursor: pointer;
+}
+
+ul.pagination li a {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    color: #007eb0;
+    font-size: 14pt;
+}
+
+ul.pagination li a:hover {
+    color: #05b4ff;
+    font-size: 14pt;
+    padding: 15px 20px;
+    background-color: #007eb0;
+    border-radius: 50%;
+    border: 3px solid #05b4ff;
+}

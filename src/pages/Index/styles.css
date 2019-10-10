@@ -1,0 +1,137 @@
+.grid-container {
+    display: grid;
+    grid-template: 300px / 200px auto;
+    background-color: #e9eef0;
+  }
+
+.grid-container header {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.movie-container-right h2 {
+    background-color: #007eb0;
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    font-family: 'Abel', sans-serif;
+    padding-left: 75px;
+    font-weight: 400;
+    color: #05b4ff;
+    font-size: 26pt;
+}
+.movie-date, .movie-resume, .movie-genre{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.movie-rating {
+    font-family: 'Abel', sans-serif;
+    margin-left: 15px;
+    padding: 15px 9px;
+    background-color: #007eb0;
+    border-radius: 50%;
+    border: 4px solid #05b4ff;
+    color: #05b4ff;
+    font-size: 16pt;
+}
+
+.movie-date { 
+    font-family: 'Abel', sans-serif;
+    color: #aeb3b5;
+}
+.movie-resume {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    color: #747575;
+}
+
+.movie-genre {
+    border: 1px solid #05b4ff;
+    border-radius: 20px;
+    padding: 5px !important;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    color: #05b4ff;
+    background-color: #fff;
+}
+
+.form-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 35px;
+    width: 100%;
+}
+.form-filter input {
+    width: 100%;
+    padding: 10px;
+    background-color: #e9eef0;
+    border: none;
+    color: #05b4ff;
+}
+.form-filter input::placeholder{
+    color: #05b4ff;
+}
+.btn{
+    border: none;
+    padding: 0 5px;
+    background-color: #007eb0;
+    color: #05b4ff;
+}
+button.btn:hover {
+    background-color: #0d6e94;
+    cursor: pointer;
+}
+.btn-details { 
+    float: right;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 9pt;
+    font-family: 'Lato', sans-serif;
+    background-color: #007eb0;
+    color: #05b4ff;
+}
+.btn-details:hover{
+    background-color: #0d6e94;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) 
+{
+    p.movie-resume{
+    font-size: 9pt;
+    height: 30%;
+   }
+   span.movie-rating, .movie-date{
+       font-size: 9pt;
+   }
+   span.movie-genre{
+       display: none;
+   }
+    .grid-container {
+        width: 85%;
+      }
+    
+    .grid-container header {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+    }
+    .btn-details{
+        margin-bottom: 20px;
+    }
+    h2.movie-title{
+        font-size: 14pt;
+    }
+    .form-filter{
+        width: 85%;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
