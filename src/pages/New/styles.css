@@ -1,0 +1,70 @@
+label#thumbnail {
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+label#thumbnail input {
+    display: none;
+}
+label#thumbnail.has-thumbnail {
+    border: 0
+}
+label#thumbnail.has-thumbnail img{
+    display: none;
+}
+
+form.cadastro { 
+    display: flex;
+    flex-direction: column;
+}
+form.cadastro input {
+    margin-bottom: 10px;
+    padding: 7px 5px;
+    border: 1px solid #007eb0 ;
+}
+form.cadastro input::placeholder{
+    color: #747575;
+    font-size: 9pt;
+    font-family: 'Lato', sans-serif;
+}
+form.cadastro input:focus{
+    border-color: #05b4ff;
+}
+form.cadastro textarea {
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    border: 1px solid #007eb0 ;
+    resize: none;
+    height: 100px;
+}
+form.cadastro textarea:focus{
+    border-color: #05b4ff;
+}
+form.cadastro textarea::placeholder{
+    color: #747575;
+    font-size: 9pt;
+    font-family: 'Lato', sans-serif;
+}
+
+form.cadastro label, span{
+    font-family: 'Abel', sans-serif;
+}
+form.cadastro label{
+    font-size: 11pt;
+    color: #747575;
+    font-weight: bold;
+}
+form.cadastro span{
+    font-size: 9pt;
+    font-weight: 400;
+}
+form.cadastro button{
+    padding: 10px 0;
+    font-size: 12pt;
+}

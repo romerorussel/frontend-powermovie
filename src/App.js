@@ -3,7 +3,7 @@ import './App.css';
 import Routes from './routes';
 
 function App() {
-
+  {document.title = "Power Movies"}
   return (
     <div className="container">
       <div className="content">
