@@ -10,3 +10,7 @@ Para rodar o projeto é bastante simples basta rodar o seguinte comando
 para acessar a aplicação basta acessar o seguinte endereço
 
 ## http://localhost:3000/
+
+para cadastrar um novo filme basta acessar a rota, e seguir os passos do formulário
+
+## http://localhost:3000/cadastro
